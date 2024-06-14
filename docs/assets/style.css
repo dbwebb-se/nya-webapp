@@ -72,6 +72,11 @@ table tr th {
     text-align: left;
 }
 
+table tr th,
+table tr td {
+    padding: 6px 12px;
+}
+
 table tbody tr {
     border-top: 1px solid #ccc;
 }
@@ -96,5 +101,6 @@ table tbody tr:hover{
 
     .sidebar {
         width: 30%;
+        flex-shrink: 0;
     }
 }
