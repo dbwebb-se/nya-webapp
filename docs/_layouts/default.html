@@ -18,10 +18,12 @@
         </article>
         <aside class="sidebar">
             <h3>Artikeln är skriven av:</h3>
-            <p>{% for author in page.author %}
-              {{ author }}<br>
-            {% endfor %}</p>
-
+            <div class="author-images">
+                {% for author in page.author %}
+                    <img src="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@main/img/{{ author }}.jpg" />
+                    <p>{{ author }}</p>
+                {% endfor %}
+            </div>
             <h3>Innehåll</h3>
             <p>Här ska en meny skapas</p>
         </aside>
