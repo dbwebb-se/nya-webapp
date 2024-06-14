@@ -22,22 +22,22 @@ body {
 }
 
 p {
-    font-size: 1.25em;
+    font-size: 1.25rem;
     margin-bottom: 1.75rem;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     margin-bottom: 1.75rem
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.4rem;
     margin-bottom: 1.75rem;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 2rem;
     margin-bottom: 1.75rem;
 }
 
@@ -53,6 +53,35 @@ h3 {
 .article,
 .sidebar {
     width: auto;
+}
+
+ul,
+ol {
+    margin-bottom: 1.75rem;
+    padding-left: 1.75rem;
+    font-size: 1.25rem;
+}
+
+table {
+    margin-bottom: 1.75rem;
+    font-size: 1.25rem;
+    border-collapse: collapse;
+}
+
+table tr th {
+    text-align: left;
+}
+
+table tbody tr {
+    border-top: 1px solid #ccc;
+}
+
+table tbody tr:nth-child(2n+1) {
+    background-color: #eee;
+}
+
+table tbody tr:hover{
+    background-color: #ddd;
 }
 
 @media (min-width: 67.5rem) {
