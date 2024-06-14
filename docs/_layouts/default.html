@@ -10,20 +10,24 @@
 </head>
 <body>
     <header class="header">
-
+        <h1 class="dbwebb-header">dbwebb.se</h1>
     </header>
     <main class="main">
         <article class="article">
             {{ content }}
         </article>
         <aside class="sidebar">
-            {% for author in page.author %}
-              {{ author }}
-            {% endfor %}
+            <h3>Artikeln är skriven av:
+            <p>{% for author in page.author %}
+              {{ author }}<br>
+            {% endfor %}</p>
+
+            <h3>Innehåll</h3>
+            <p>Här ska en meny skapas</p>
         </aside>
     </main>
-    <footer class="footer">'
-
+    <footer class="footer">
+        <p>&copy; dbwebb.se</p>
     </footer>
 </body>
 </html>

@@ -89,6 +89,15 @@ table tbody tr:hover{
     background-color: #ddd;
 }
 
+.footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    padding: 3.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (min-width: 67.5rem) {
     html {
         font-size: 112.5%;
@@ -96,11 +105,11 @@ table tbody tr:hover{
 
     .main {
         flex-direction: row;
-        gap: 1.75rem;
+        gap: 3.5rem;
     }
 
     .sidebar {
-        width: 30%;
+        width: 20%;
         flex-shrink: 0;
     }
 }

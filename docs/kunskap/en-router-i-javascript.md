@@ -1,4 +1,5 @@
 ---
+layout: default
 author: efo
 revision:
     "2023-03-15": "(A, efo) Första utgåvan för webapp-v5."
