@@ -1,0 +1,13 @@
+body {
+    word-wrap: break-word;
+}
+
+article {
+    padding: 0 1em 1em 1em;
+}
+
+.right {
+    float: right;
+    padding: 0.5em;
+    padding-right: 0;
+}
