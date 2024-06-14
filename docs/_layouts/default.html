@@ -13,13 +13,15 @@
 
     </header>
     <main class="main">
-        {{ content }}
+        <article class="article">
+            {{ content }}
+        </article>
+        <aside class="sidebar">
+            {% for author in page.author %}
+              {{ author }}
+            {% endfor %}
+        </aside>
     </main>
-    <aside class="sidebar">
-        {% for author in page.author %}
-          {{ author }}
-        {% endfor %}
-    </aside>
     <footer class="footer">'
 
     </footer>
