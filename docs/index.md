@@ -6,16 +6,10 @@ author:
 revision:
     "2023-03-01": (A, efo) Första versionen inför VT23.
 ---
-Kursen webapp (v5)
+Webbapplikationer för mobila enheter
 ==================================
 
 Kursen **Webbapplikationer för mobila enheter**, a.k.a. *webapp*, lär dig hur du bygger applikationer för mobila enheter och läsplattor med HTML, CSS och JavaScript.
-
-
-
-<!--more-->
-
-
 
 Kursen syftar till att lära ut utveckling av webbapplikationer med HTML, CSS och JavaScript och fokuserar på mobila enheter och läsplattor.
 
@@ -24,24 +18,6 @@ Kursen går igenom konstruktioner i HTML, CSS och JavaScript som hjälper dig by
 Du bygger en applikation som använder sig av HTML, CSS och JavaScript på klientsidan och du jobbar med RESTful API:er och JSON-data för att bygga webappar.
 
 Via litteraturstudier och praktiska övningar förkovrar du dig i området. I slutet av kursen får du visa dina färdigheter i ett praktiskt programmeringsprojekt där allt integreras.
-
-
-
-[INFO]
-**Tidigare/Nyare version av kursen**
-
-Från och med vårterminen 2023 gäller version 5 av kursen
-
-Vårterminen 2022 gällde version 4 av kursen, [webapp-v4](kurser/webapp-v4).
-
-Från 2018-2021 gällde version 3 av kursen.
-
-Under vårterminen 2017 gällde version 2 av kursen, [webapp-v2](kurser/webapp-v2).
-
-Fram till och med höstterminen 2016 gällde version 1 av kursen, [webapp-v1](kurser/webapp-v1).
-
-Om du påbörjat den äldre version av kursen så skall du också slutföra denna versionen av kursen (eller göra om den nya kursen från start).
-[/INFO]
 
 
 
@@ -77,23 +53,21 @@ Kursen omfattar följande områden:
 Mål {#mal}
 ------------------------
 
-###Kunskap och förståelse {#kunskap}
+### Kunskap och förståelse {#kunskap}
 
 Efter genomförd kurs skall studenten:
 
 * påvisa grundläggande förståelse för utveckling av mobila applikationer med valda tekniker genom att skriftligen beskriva och sammanfatta erfarenheter och observationer från övningar och projekt.
 * påvisa god förståelse för mobila enheters begränsningar och styrkor samt anpassa mobila applikationer för tillgänglighet och användbarhet.
 * påvisa goda kunskaper i att skapa mobila appar, med HTML, CSS och JavaScript, genom att tillämpa dessa tekniker i praktiska övningar och projekt.
-<!-- * påvisa goda kunskaper i att använda JavaScript på serversidan tillsammans med Node.js genom att tillämpa dessa tekniker i praktiska övningar och projekt. -->
 * påvisa goda kunskaper i att använda JSON API:er för att hämta, skapa, uppdatera och ta bort data genom att använda JSON API:er i praktiska övningar och projekt.
 
 
-###Färdighet och förmåga {#fardighet}
+### Färdighet och förmåga {#fardighet}
 
 Efter genomförd kurs skall studenten:
 
 * självständigt utveckla, dokumentera och presentera ett projekt baserat på utveckling av en mobil app.
-<!-- * med både klient- och server-kod. -->
 * ha god praktisk förmåga att hantera de verktyg och miljöer som används vid utveckling och felsökning av mobila appar med valda tekniker.
 
 
@@ -108,7 +82,7 @@ Kursen är uppdelad i kursmoment där varje kursmoment uppskattas till 20h stude
 
 Tanken är att komma igång med utveckling av mobila applikationer. De mobila applikationerna utvecklar vi med tekniker baserade på HTML, CSS och JavaScript. Vi ser hur vi kan utnyttja dessa tekniker för att ändra innehållet utan att ladda om applikationen. Som ett första steg så läser vi på om grunderna och börjar så smått med det löpande projektet för alla sex kursmoment.
 
-[Instruktion till kursmoment 01](kurser/webapp-v5/kmom01).
+[Instruktion till kursmoment 01](kmom01).
 
 
 
@@ -120,7 +94,7 @@ Vi fortsätter med vår applikation från kmom01 och använder tekniker för ska
 
 Innan vi gör detta tittar vi på ett verktyg som hjälper oss att söka och visa information i JSON-filer.
 
-[Instruktion till kursmoment 02](kurser/webapp-v5/kmom02).
+[Instruktion till kursmoment 02](kmom02).
 
 
 
