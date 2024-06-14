@@ -10,20 +10,27 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="dbwebb-header">dbwebb.se</h1>
+        <div>
+            <img src="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@main/img/leaf_256x256.png" alt="dbwebb-logo" class="header-logo" />
+            <h1 class="dbwebb-header">
+                <a href="https://dbwebb.se">dbwebb.se</a>
+            </h1>
+        </div>
+        <nav class="nav">
+            <p>Här bör finnas en meny</p>
+        </nav>
     </header>
     <main class="main">
         <article class="article">
             {{ content }}
         </article>
         <aside class="sidebar">
-
             <h3>Innehåll</h3>
             <p>Här ska en meny skapas</p>
-            <h3>Artikeln är skriven av:</h3>
+            <h3>Författare:</h3>
             <div class="author-images">
                 {% for author in page.author %}
-                    <img src="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@main/img/{{ author }}.jpg" />
+                    <img src="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@main/img/{{ author }}.jpg" alt="bild på {{ author }}" />
                     <p>{{ author }}</p>
                 {% endfor %}
             </div>
