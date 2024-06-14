@@ -1,6 +1,6 @@
 ---
 title: webapp-v5
-layout: dbwebb
+layout: default
 author:
     - efo
 revision:
