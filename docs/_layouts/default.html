@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ site.title }}</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@main/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025/css/style.css" />
     <!-- <script type="module" src="main.js" defer></script> -->
 </head>
 <body>
@@ -17,6 +17,9 @@
             {{ content }}
         </article>
         <aside class="sidebar">
+
+            <h3>Innehåll</h3>
+            <p>Här ska en meny skapas</p>
             <h3>Artikeln är skriven av:</h3>
             <div class="author-images">
                 {% for author in page.author %}
@@ -24,8 +27,6 @@
                     <p>{{ author }}</p>
                 {% endfor %}
             </div>
-            <h3>Innehåll</h3>
-            <p>Här ska en meny skapas</p>
         </aside>
     </main>
     <footer class="footer">
