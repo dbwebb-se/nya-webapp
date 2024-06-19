@@ -20,7 +20,7 @@
             <p>Här bör finnas en meny</p>
         </nav>
     </header>
-    <main class="main">
+    <main class="main" id="main">
         <article class="article">
             {{ content }}
         </article>
@@ -43,7 +43,7 @@
     <script type="module">
         import { parseYoutube, parseInfo, parseWarning } from "../js/parse.js";
 
-        const article = document.getElementById("test");
+        const article = document.getElementById("main");
 
         parseYoutube(article);
         parseInfo(article);
