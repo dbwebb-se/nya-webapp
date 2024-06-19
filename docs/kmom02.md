@@ -13,6 +13,14 @@ revision:
 Kmom02: En router
 ==================================
 
+[WARNING]
+**Publicering till studentservern**
+
+När ni publicerar till studentservern, kom ihåg att ni behöver uppdatera både eran akronym men även sökvägen i `.htaccess` på rad 12 och 15. Den som ni har ifrån tidigare pekar på er portfolio-mapp, men ska istället peka på den mapp ni jobbar med i projektet.
+
+[/WARNING]
+
+
 Vi tar en titt på vilka begränsningar och utmaningar man står inför som användare av en mobil enhet. Vi bryter ut CSS koden från kmom01 till ett GUI komponentbaserad ramverk och lägger till fler GUI komponenter till vårt ramverk.
 
 Vi fortsätter med vår applikation från kmom01 och tittar på hur vi kan använda en router för att visa upp olika sidor utan att ladda om sidan.

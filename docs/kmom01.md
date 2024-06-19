@@ -8,11 +8,16 @@ revision:
 Kmom01: Web Components
 ==================================
 
+[INFO]
+**Publicering till studentservern**
+
+När ni publicerar till studentservern, kom ihåg att ni behöver uppdatera både eran akronym men även sökvägen i `.htaccess` på rad 12 och 15. Den som ni har ifrån tidigare pekar på er portfolio-mapp, men ska istället peka på den mapp ni jobbar med i projektet.
+
+[/INFO]
+
+
 Tanken är att komma igång med utveckling av mobila applikationer. De mobila applikationerna utvecklar vi med tekniker baserade på HTML, CSS och JavaScript. Vi ser hur vi kan utnyttja dessa tekniker för att ändra innehållet utan att ladda om applikationen. Som ett första steg så läser vi på om grunderna och börjar så smått med det löpande projektet för alla sex kursmoment.
 
-
-
-<!--more-->
 
 
 
