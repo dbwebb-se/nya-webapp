@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ site.title }}</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/dark.min.css" />
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@v1.0.3/css/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -47,6 +51,8 @@
         parseYoutube(article);
         parseInfo(article);
         parseWarning(article);
+
+        hljs.highlightAll();
     </script>
 </body>
 </html>
