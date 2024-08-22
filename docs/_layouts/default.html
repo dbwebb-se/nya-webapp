@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/dark.min.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@v1.0.10/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@v1.0.11/css/style.css" />
 
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js" defer></script>
 </head>
@@ -29,7 +29,7 @@
         </article>
         <aside class="sidebar">
             <h3>Innehåll</h3>
-            <p>Här ska en meny skapas</p>
+            <nav id="toc" class="toc"></nav>
             <h3>Författare:</h3>
             <div class="author-images">
                 {% for author in page.author %}
@@ -41,16 +41,27 @@
     </main>
     <footer class="footer">
         <div class="inner-footer">
-            <a href="https://dbwebb.se" target="_blank"><img src="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@main/img/leaf_256x256.png" alt="dbwebb-logo" /></a>
-            <a href="https://bth.se" target="_blank"><img src="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@main/img/bth_logotyp_vit.png" alt="bth-logo" /></a>
+            <div>
+                <a href="https://dbwebb.se" target="_blank"><img src="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@main/img/leaf_256x256.png" alt="dbwebb-logo" /></a>
+                <p>dbwebb.se är en plattform för att publicera undervisningsmaterial och relaterad information till kurser på utbildningar inom BTH Webbprogrammering.</p>
+            </div>
+            <div>
+                <a href="https://bth.se" target="_blank"><img src="https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@main/img/bth_logotyp_vit.png" alt="bth-logo" /></a>
+                <p>BTH bidrar till en hållbar samhällsutveckling genom högre utbildning, forskning och innovation. BTH bedriver utbildning och forskning inom områden där samhället har stora behov.</p>
+            </div>
         </div>
         <p>&copy; dbwebb.se</p>
+        <p>All material is released under the <a target="_blank" href="">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> License.</p>
     </footer>
 
     <script type="module">
-        import { parseYoutube, parseInfo, parseWarning } from "https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@v1.0.10/js/parse.js";
+        import { parseYoutube, parseInfo, parseWarning } from "https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@v1.0.11/js/parse.js";
+        import createToc from "https://cdn.jsdelivr.net/gh/dbwebb-se/utils-2025@v1.0.11/js/toc.js";
 
-        const article = document.getElementById("main");
+        let article = document.getElementById("article");
+        let toc = document.getElementById("toc");
+
+        createToc(toc, article);
 
         parseYoutube(article);
         parseInfo(article);
